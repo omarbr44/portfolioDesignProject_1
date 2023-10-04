@@ -61,7 +61,7 @@ import { onMounted } from 'vue'
      data-aos-easing="linear"
      data-aos-duration="800">
    <img class="md:w-3/4 md:mr-auto mb-8" src="../src/assets/tshirt2.png" alt="">
-   <img class="md:w-3/4 md:ml-auto " src="../src/assets/tshirt3 (2).png" alt="">
+   <img class="md:w-3/4 md:ml-auto " src="../src/assets/tshirt3(2).png" alt="">
   </div>
   <div class="flex flex-col lg:flex-row lg:justify-center mt-8" data-aos="fade-down"
      data-aos-easing="linear"
