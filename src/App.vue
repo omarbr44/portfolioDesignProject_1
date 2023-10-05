@@ -28,7 +28,7 @@ import { onMounted } from 'vue'
     3px 3px 0 #4d4d62,
     -3px 3px 0 #4d4d62,
     -3px -3px 0 #4d4d62,
-    3px -3px 0 #4d4d62; */ -webkit-text-stroke: 3px #4d4d62;color: rgba(0, 0, 0, 0.1);"> istikaoa</span>
+    3px -3px 0 #4d4d62; */ -webkit-text-stroke: 3px #4d4d62;color: rgba(0, 0, 0, 0.1);"> istikana</span>
 </div>
 </div>
 </div>
@@ -36,7 +36,7 @@ import { onMounted } from 'vue'
 <div class=" container mt-32 sm:mt-20 py-5">
   <h1 data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="800" class="aaa text-white text-3xl sm:text-lg sm:text-center text-right"> اهلا انا إستكانة ،  مصممة جرافيك مهتمه في التصميم الإبداعي والذكاء الاصطناعي . 
+     data-aos-duration="800" class="aaa text-white text-3xl sm:text-lg sm:text-center text-right"> اهلا انا <span class=" text-site-secondary"> إستكانة</span>   ،  مصممة جرافيك مهتمه في التصميم الإبداعي والذكاء الاصطناعي و 
     في هذا الــعــرض سأشــاركم نـــمـــاذج مــن أحـدث إنـجـازاتـــــي وسأعطيكم نظرة عامة على الخدمات التي اقدمها وكيفية التواصل معي 
     
   </h1>
@@ -45,8 +45,8 @@ import { onMounted } from 'vue'
      data-aos-easing="linear"
      data-aos-duration="800">
   <h1 class=" text-white text-5xl sm:text-xl text-center ">: خــدمــاتــــــــــــــــــــــــي </h1>
-  <div class=" w-3/4 my-10 border-white ml-auto mr-auto p-3 border rounded-sm "><p class="text-center text-white text-3xl sm:text-xl">تصميم رسومات <span class=" text-site-secondary">كرتونية</span> على التيشيرتات</p></div>
-  <div class=" w-3/4 my-10 border-white ml-auto mr-auto p-3 border rounded-sm "><p class="text-center text-white text-3xl sm:text-xl">تصميم رسومات <span class=" text-site-secondary">فوتوغرافية</span> على التيشيرتات</p></div>
+  <div class=" w-3/4 my-10 border-white ml-auto mr-auto p-3 border rounded-sm "><p class="text-center text-white text-3xl sm:text-lg">تصميم رسومات <span class=" text-site-secondary">كرتونية</span> على التيشيرتات</p></div>
+  <div class=" w-3/4 my-10 border-white ml-auto mr-auto p-3 border rounded-sm "><p class="text-center text-white text-3xl sm:text-lg">تصميم رسومات <span class=" text-site-secondary">فوتوغرافية</span> على التيشيرتات</p></div>
 </div>
 <div class=" container mt-32 sm:mt-20 py-5">
   <h1 class=" text-white text-5xl sm:text-xl text-center" data-aos="fade-down"
@@ -109,12 +109,16 @@ import { onMounted } from 'vue'
   </div>
 </div>
 
-<div class=" bg-white mt-32 sm:mt-20 py-5" data-aos="fade-down"
+<div class=" flex justify-center flex-col pb-5">
+<span class=" ml-auto mr-auto text-white text-5xl sm:text-2xl text-center py-10 mt-20 border-b border-site-secondary w-fit">:  للتواصل معي </span>
+<span class=" text-white text-2xl sm:text-xl text-center mt-10"> البريد الإلكتروني </span>
+<span class=" text-site-secondary text-2xl sm:text-xl text-center  "> hind.hamdi@gmail.com </span>
+<span class=" text-white text-2xl sm:text-xl text-center mt-10">  التويتـــــــــــــــــــــــــــــــــــــــــــــــــر </span>
+<span class=" text-site-secondary text-2xl sm:text-xl text-center  "> @iistikana_7 </span>
+</div>
+<!-- <div class=" bg-white  mt-22 sm:mt-10 py-5" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="300">
-<div style="border-bottom: 20px solid #232a54;" >
-  <h1 class=" text-site-secondary text-5xl sm:text-xl text-center py-10">: معلومات التواصل </h1>
-</div>
 <div class="flex flex-col lg:flex-row items-center justify-between px-12 sm:px-5 mt-10">
   <p class=" text-site-primary text-4xl sm:text-2xl sm:order-2 md:order-2">hind.hamdi@gmail.com</p>
   <p class=" text-site-primary text-4xl sm:text-2xl">الـبـريـــــــــــــد الالـكـتـرونـــــــــــي</p>
@@ -123,7 +127,7 @@ import { onMounted } from 'vue'
   <p class=" text-site-primary text-4xl sm:text-2xl sm:order-2 md:order-2">@iistikana_7</p>
   <p class=" text-site-primary text-4xl sm:text-2xl"> التويتـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــر</p>
   </div>
-</div>
+</div> -->
 </div>
 </template>
 
@@ -177,6 +181,7 @@ p{
 @media(max-width: 640px){
   .hero-text{
   line-height: 8rem !important;
+  -webkit-text-stroke: 3px #c96746 !important;
 }
 } 
 </style>
