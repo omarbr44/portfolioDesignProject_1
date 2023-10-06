@@ -49,15 +49,24 @@ import { onMounted } from 'vue'
   <div class=" w-3/4 my-10 border-white ml-auto mr-auto p-3 border rounded-sm "><p class="text-center text-white text-3xl sm:text-lg">تصميم رسومات <span class=" text-site-secondary">فوتوغرافية</span> على التيشيرتات</p></div>
 </div>
 <div class=" container mt-32 sm:mt-20 py-5">
-  <h1 class=" text-white text-5xl sm:text-xl text-center" data-aos="fade-down"
+  <h1 class=" text-white text-5xl sm:text-xl text-center mb-20" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="400">: معرض أعمالــــــــــــــــــي </h1>
-  <div class=" flex lg:justify-end justify-center" data-aos="fade-down"
+  <div class=" flex sm:flex-col items-center justify-evenly mb-16" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="800">
-   <img class=" md:ml-auto lg:mr-20" src="../src/assets/tshirt1.png" alt="">
+   <img class=" lg:w-1/3 sm:w-3/4  mb-3" src="../src/assets/t1.png" alt="">
+   <img class=" lg:w-1/3 sm:w-3/4 mb-3" src="../src/assets/t2.png" alt="">
+   <img class=" lg:w-1/3 sm:w-3/4" src="../src/assets/t3.png" alt="">
   </div>
-  <div class="flex flex-col lg:flex-row lg:justify-center" data-aos="fade-down"
+  <div class=" flex sm:flex-col justify-evenly items-center" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="800">
+   <img class=" w-1/3 sm:w-3/4 mb-3 " src="../src/assets/t4.png" alt="">
+   <img class="w-1/3 sm:w-3/4 mb-3 " src="../src/assets/t5.png" alt="">
+   <img class="w-1/3 sm:w-3/4" src="../src/assets/t6.png" alt="">
+  </div>
+<!--   <div class="flex flex-col lg:flex-row lg:justify-center" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="800">
    <img class="md:w-3/4 md:mr-auto mb-8" src="../src/assets/tshirt2.png" alt="">
@@ -68,7 +77,7 @@ import { onMounted } from 'vue'
      data-aos-duration="800">
    <img class="md:w-3/4 md:mr-auto mb-8 lg:mt-10" src="../src/assets/tshirt5.png" alt="">
    <img class="md:w-3/4 lg:w-96 lg:h-fit lg:mr-28 md:ml-auto" src="../src/assets/tshirt4.png" alt="">
-  </div>
+  </div> -->
 </div>
 <div class="  mt-32 sm:mt-20 py-5">
   <div class="flex lg:justify-center">
