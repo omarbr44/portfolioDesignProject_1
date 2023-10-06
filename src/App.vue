@@ -20,7 +20,8 @@ import { onMounted } from 'vue'
     <img data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="400" class=" ml-auto mr-auto sm:h-fit z-20" style=" width: 37rem;" src="../src/assets/SAVE_20231003_221014.png" alt="">
-  <span data-aos="fade-down"
+    <img src="../src/assets/ist.png" class=" sm:bottom-8 absolute z-30 bottom-0 hero-text " alt="">
+   <!--   <span data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="800" class="aaa text-center absolute z-30 bottom-0 hero-text " style="font-size:28vw;line-height: 14rem; color: #232a54;left: 50%;
     transform: translate(-50%, 0);
@@ -28,7 +29,7 @@ import { onMounted } from 'vue'
     3px 3px 0 #4d4d62,
     -3px 3px 0 #4d4d62,
     -3px -3px 0 #4d4d62,
-    3px -3px 0 #4d4d62; */ -webkit-text-stroke: 3px #4d4d62;color: rgba(0, 0, 0, 0.1);"> istikana</span>
+    3px -3px 0 #4d4d62; */ -webkit-text-stroke: 3px #4d4d62;color: rgba(0, 0, 0, 0.1);"> istikana</span> -->
 </div>
 </div>
 </div>
@@ -55,9 +56,9 @@ import { onMounted } from 'vue'
   <div class=" flex sm:flex-col items-center justify-evenly mb-16" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="800">
-   <img class=" lg:w-1/3 sm:w-3/4  mb-3" src="../src/assets/t1.png" alt="">
-   <img class=" lg:w-1/3 sm:w-3/4 mb-3" src="../src/assets/t2.png" alt="">
-   <img class=" lg:w-1/3 sm:w-3/4" src="../src/assets/t3.png" alt="">
+   <img class=" w-1/3 sm:w-3/4  mb-3" src="../src/assets/t1.png" alt="">
+   <img class=" w-1/3 sm:w-3/4 mb-3" src="../src/assets/t2.png" alt="">
+   <img class=" w-1/3 sm:w-3/4" src="../src/assets/t3.png" alt="">
   </div>
   <div class=" flex sm:flex-col justify-evenly items-center" data-aos="fade-down"
      data-aos-easing="linear"
@@ -187,10 +188,10 @@ p{
 .blcandwit:hover{
 	filter: grayscale(0);
 } */
-@media(max-width: 640px){
+/* @media(max-width: 640px){
   .hero-text{
   line-height: 8rem !important;
   -webkit-text-stroke: 3px #c96746 !important;
 }
-} 
+}  */
 </style>
