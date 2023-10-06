@@ -56,15 +56,15 @@ import { onMounted } from 'vue'
   <div class=" flex sm:flex-col items-center justify-evenly mb-16" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="800">
-   <img class=" w-1/3 sm:w-3/4  mb-3" src="../src/assets/t1.png" alt="">
-   <img class=" w-1/3 sm:w-3/4 mb-3" src="../src/assets/t2.png" alt="">
+     <img class=" w-1/3 sm:w-3/4 mb-3" src="../src/assets/t2.png" alt="">
+     <img class=" w-1/3 sm:w-3/4  mb-3 mx-5" src="../src/assets/t1.png" alt="">
    <img class=" w-1/3 sm:w-3/4" src="../src/assets/t3.png" alt="">
   </div>
   <div class=" flex sm:flex-col justify-evenly items-center" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="800">
    <img class=" w-1/3 sm:w-3/4 mb-3 " src="../src/assets/t4.png" alt="">
-   <img class="w-1/3 sm:w-3/4 mb-3 " src="../src/assets/t5.png" alt="">
+   <img class="w-1/3 sm:w-3/4 mb-3 mx-5" src="../src/assets/t5.png" alt="">
    <img class="w-1/3 sm:w-3/4" src="../src/assets/t6.png" alt="">
   </div>
 <!--   <div class="flex flex-col lg:flex-row lg:justify-center" data-aos="fade-down"
